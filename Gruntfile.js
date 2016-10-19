@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 	 */
 	
 	// Build using data from 2004 to four years in the future
-	var range = [2004, new Date().getFullYear() + 4];
+	var range = [1997, new Date().getFullYear() + 4];
 	
 	// Defines the build for unminified src JS
 	var buildObj = {};
